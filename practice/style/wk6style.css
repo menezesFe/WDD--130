@@ -1,0 +1,44 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.15em;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+#cherry {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 300px;
+}
+
+.left-top{
+    background-color: lightgray;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.left {
+    background-color: lightgray;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+h2 {
+    font-size: 250%;
+    text-align:center;
+    color: rgb(176, 15, 47);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
