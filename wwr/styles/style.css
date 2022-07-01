@@ -131,6 +131,21 @@ h4{
     color: #1e3888;
 }
 
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
