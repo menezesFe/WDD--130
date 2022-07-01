@@ -20,11 +20,15 @@ body{
 }
 
 header{
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: rgba(87, 90, 75, .7);
 }
 
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .logo{
@@ -32,6 +36,11 @@ header{
 }
 
 /* NAV section */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a{
     text-align: center;
     color: #d2d4c8;
